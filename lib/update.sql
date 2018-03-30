@@ -1,3 +1,3 @@
 UPDATE Characters
 SET species = "martian"
-WHERE MAX(id)
+WHERE id = MAX(id)
